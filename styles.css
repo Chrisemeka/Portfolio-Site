@@ -113,6 +113,18 @@ main .skill:hover{
 #project{
     height: 100vh;
 }
+.view-more{
+    margin-top: 30px;
+}
+.view-more a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
 /* end project design */
 /* contact design */
 #contact{
@@ -152,7 +164,6 @@ footer .Links li{
     font-size: 30px;
     list-style: none;
 }
-
 
 
 @media screen and (max-width: 425px) {

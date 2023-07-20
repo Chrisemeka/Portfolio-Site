@@ -37,8 +37,8 @@
                 </ul>
                 <h1 class="mb-3">I am Anyanwu Chukwuemeka</h1>
                 <p class="mb-5">I am a freelance web developer based in Lagos State, Nigeria.</p>
-                <a href="#" class="portfoliobutton">View my portfolio</a>
-                <a href="#" class="portfoliobutton">Resume</a>
+                <a href="#project" class="portfoliobutton">View my portfolio</a>
+                <a href="https://drive.google.com/file/d/13b8kYxzJScziZBJNmF8Enqsmih8UlGve/view?usp=sharing" class="portfoliobutton">Resume</a>
                 
             </div>
             <div class="profileImage"></div>
@@ -75,25 +75,59 @@
             </div>
         </div>
 
-        <div class="container mt-5" id="project">
+        <div class="container mt-3 mb-5" id="project">
             <h2>PROJECTS</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                        <a href="https://github.com/Chrisemeka/Global-Weather" target="_blank" rel="noopener noreferrer"><img src="./images/global-weather.png" alt="global-weather" class="card-img-top"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="https://github.com/Chrisemeka/Quick-Codes" target="_blank" rel="noopener noreferrer"><img src="./images/quick-code.png" alt="global-weather" class="card-img-top"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="https://github.com/Chrisemeka/Quoticle" target="_blank" rel="noopener noreferrer"><img src="./images/quoticle.png" alt="global-weather" class="card-img-top"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="https://github.com/Chrisemeka/Portfolio-Site" target="_blank" rel="noopener noreferrer"><img src="./images/portfolio.png" alt="global-weather" class="card-img-top"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more">
+                <a href="https://github.com/Chrisemeka?tab=repositories">View More</a>
+            </div>
         </div>
 
-        <div class="container mt-5" id="contact">
+        <div class="container" id="contact" style="margin-top: 200px;">
             <h2>CONTACT ME</h2>
             <p>Have a question or want to work together?</p>
             <p>Contact me</p>
             <form>
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                    <input type="text" class="form-control" id="name" placeholder="name">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+                    <input type="email" class="form-control" id="email" placeholder="email">
                 </div>
                 <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    <textarea class="form-control" id="text" rows="10"></textarea>
                 </div>
-                <input type="submit" class="btn btn-primary">
+                <button class="btn btn-primary" id="submit">Submit</button>
             </form>
         </div>
     </main>
@@ -109,5 +143,10 @@
             <p>&copy Anyanwu Chukwuemeka 2023</p>
         </div>
     </footer>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="./app.js"></script>
 </body>
 </html>
