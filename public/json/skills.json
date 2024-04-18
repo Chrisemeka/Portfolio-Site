@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "skill": "HTML",
+        "logo": "/img/icons/html.svg",
+        "description": "quite porficeint in this now"
+      },
+      {
+        "id": 2,
+        "skill": "CSS",
+        "logo": "/img/icons/css.svg",
+        "description": "quite porficeint in this now"
+      },
+      {
+        "id": 3,
+        "skill": "Javascript",
+        "logo": "/img/icons/javascript.svg",
+        "description": "quite porficeint in this now"
+      },
+      {
+        "id": 4,
+        "skill": "PHP",
+        "logo": "/img/icons/php.svg",
+        "description": "quite porficeint in this now"
+      },
+      {
+        "id": 5,
+        "skill": "React",
+        "logo": "/img/icons/react.svg",
+        "description": "quite porficeint in this now"
+      },
+    
+      {
+        "id": 6,
+        "skill": "Tailwind",
+        "logo": "/img/icons/tailwind.svg",
+        "description": "quite porficeint in this now"
+      }
+]
